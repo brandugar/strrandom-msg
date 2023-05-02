@@ -1,0 +1,27 @@
+{
+  "name": "strrandom-msg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Brandon Duque <brandugar@gmail.com>",
+  "license": "MIT",
+  "description": "String Random Messages",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandugar/strrandom-msg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brandugar/strrandom-msg/issues"
+  },
+  "homepage": "https://github.com/brandugar/strrandom-msg#readme",
+  "bin": {
+    "strrandom-msg": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "user": "^0.0.0"
+  }
+}
